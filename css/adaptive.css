@@ -1,0 +1,50 @@
+@media screen and (max-width: 1400px) {
+    .img-slick2 img {
+        width: 350px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .img-slick2 img {
+        width: 220px;
+    }
+
+    .card-text {
+        height: 72px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .slider-item {
+        height: 500px;
+    }
+
+    .slick-dots li button:before {
+        font-size: 15px;
+        color: #0d6efd;
+        opacity: 1;
+    }
+
+    .slick-dots {
+        bottom: 0;
+    }
+
+    .slick-dots li.slick-active button:before {
+        color: #212529;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .fs-1 {
+        font-size: 23px !important;
+    }
+
+    .fs-5 {
+        font-size: 18px !important;
+    }
+
+    .accordion .ui-accordion-header-icon {
+        right: 15px;
+    }
+}
